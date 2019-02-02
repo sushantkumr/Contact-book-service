@@ -12,11 +12,11 @@
 Open Postman while the sever is running and run the following URLs to use app.
 For all requests enable Authentication --> Type as `Basic Auth` --> Username: `plivo` Password: `plivo123`
 
-####To query all contacts 
+#### Query all contacts 
 > GET: [http://127.0.0.1:8000/api/contacts/](http://127.0.0.1:8000/api/contacts/)
 
 
-####To insert a record
+#### Insert record
 > POST: [http://127.0.0.1:8000/api/contacts/](http://127.0.0.1:8000/api/contacts/)
 
 In Body --> Under raw format ==> 
@@ -29,13 +29,13 @@ In Body --> Under raw format ==>
 ```
 and enable `JSON(application/json)`
 
-####To modify records
+#### Modify record
 > PUT: [http://127.0.0.1:8000/api/contacts/](http://127.0.0.1:8000/api/contacts/)
 
 In Body --> Under raw format ==> Change the details similar to how it was changed under insertion of recrods
 and enable `JSON(application/json)`
 
-####To delete records
+#### Delete record
 > DELETE: [http://127.0.0.1:8000/api/contacts/CONTACT_ID/](http://127.0.0.1:8000/api/contacts/1/)
 
 CONTACT_ID: Id of the contact you wish to delete
