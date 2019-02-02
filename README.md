@@ -18,6 +18,7 @@ To query all contacts
 
 To insert a record
 > POST: [http://127.0.0.1:8000/api/contacts/](http://127.0.0.1:8000/api/contacts/)
+
 In Body --> Under raw format ==> 
 ```
 {
@@ -30,6 +31,7 @@ and enable `JSON(application/json)`
 
 To modify records
 > PUT: [http://127.0.0.1:8000/api/contacts/](http://127.0.0.1:8000/api/contacts/)
+
 In Body --> Under raw format ==> Change the details similar to how it was changed under insertion of recrods
 and enable `JSON(application/json)`
 
