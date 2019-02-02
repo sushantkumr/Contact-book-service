@@ -6,7 +6,6 @@ from rest_framework.utils import json
 
 from .models import Contact
 from rest_framework.reverse import reverse
-# from contact import views
 
 User = get_user_model()
 
