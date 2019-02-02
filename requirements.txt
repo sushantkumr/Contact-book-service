@@ -1,0 +1,7 @@
+django
+gunicorn
+django-cors-headers
+django-safedelete
+django_cron
+django-filter
+djangorestframework
